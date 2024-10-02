@@ -1,0 +1,69 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+#table1{
+    border-collapse: collapse;
+    border: black 2px solid;
+}
+
+#table2 th,
+#table2 td {
+    border: 2px solid orange;
+}
+
+td{
+    text-align: left;
+}
+
+th{
+    text-align: left;
+    background-color: lightblue;
+}
+
+tr:nth-child(even){
+    color:white;
+    background-color: lightgreen;
+}
+
+.list1{
+    list-style: square inside none;
+}
+.list2{
+    list-style-type: square;
+}
+
+.list3{
+    list-style-type: circle;
+}
+
+.list4{
+    list-style-type: disc;
+}
+
+.second1{
+    list-style-type: decimal-leading-zero;
+}
+.second2{
+    list-style-type: decimal;
+}
+.second3{
+    list-style-type: lower-roman;
+}
+.second4{
+    list-style-type: upper-roman;
+}
+.second5{
+    list-style-type: upper-alpha;
+    list-style-position: outside;
+}
+.second6{
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+}
+.second7{
+    list-style-image: linear-gradient(to left bottom, blue, yellow);
+}
+
+
